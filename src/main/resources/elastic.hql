@@ -1,7 +1,7 @@
---添加elasticsearch-hadoop
+-- 添加elasticsearch-hadoop
 add jar hdfs://192.168.0.25:9000/hive/jar/elasticsearch-hadoop/elasticsearch-hadoop-5.6.3.jar;
 
---创建es的外部存储表
+-- 创建es的外部存储表
 CREATE EXTERNAL TABLE dns_domainparse (
 id string,
 dns_id string,

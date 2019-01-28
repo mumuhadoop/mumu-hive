@@ -19,7 +19,7 @@ public class HiveJdbcConfig {
     private synchronized DataSource dataSource() {
         if (dataSource == null) {
             dataSource = new DataSource();
-            dataSource.setUrl("jdbc:hive2://192.168.0.25:10000/default");
+            dataSource.setUrl("jdbc:hive2://192.168.0.81:10000/default");
             dataSource.setDriverClassName("org.apache.hive.jdbc.HiveDriver");
             dataSource.setUsername("");
             dataSource.setPassword("");
